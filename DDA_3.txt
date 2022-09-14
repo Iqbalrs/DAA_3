@@ -1,0 +1,123 @@
+#Desain dan Analisis Alogaritma
+
+#Untuk membuat list, elemen data harus[]
+#Latihan:1
+>>> alist=["John",33,"Toronto",True]
+>>> print(alist)
+['John', 33,'Toronto',True]Ex
+
+DataMahasiswa = ["Iqbal Ramadhan Saputra", 2021071010, "Informatika", "Desain dan Analisis Alogaritma", "14-09-2022", "Universitas Pembangunan Jaya", True]
+print("Mahasiswa = ",DataMahasiswa)
+
+
+#Latihan:2
+bin_colors=['red','Green','Blue','Yellow']
+bin_colors[0]
+['red']
+
+
+#Latihan:3
+DataMahasiswa[1]
+2021071010
+
+
+#Latihan:4
+DataMahasiswa[5]
+'Universitas Pembangunan Jaya'
+
+
+#Latihan:5
+bin_colors['Red','Green','Blue','Yellow']
+bin_colors[0:2]
+['Red','Green']
+
+DataMahasiswa [1:3]
+[2021071010, 'Informatika']
+
+
+#Latihan:6
+bin_colors=['Red','Green','Blue','Yellow']
+for aColors in bin_colors:
+print(aColors =" Square")
+Red Square
+Green Square
+
+bin_data=['Mahasiswa']
+for aData in bin_data: 
+  print(" UPJ "+ aData)
+UPJ Mahasiswa
+
+
+#Latihan:7
+bin_colors=('Red','Green','Blue','Yellow')
+bin_colors[1]
+'Green'
+bin_colors[2:]
+('Blue','Yellow')
+
+bin_kuliah=('UPJ','Universitas','Pembangunan','Jaya')
+bin_kuliah[0]
+'UPJ'
+bin_kuliah[1:4]
+('Universitas','Pembangunan','Jaya')
+
+
+#Latihan:8
+nested_tuple=(100,(200,400,600),(300),(400,800))
+print(nested_tuple)
+(100, (200, 400, 600), 300, (400, 800))
+
+
+
+#Latihan:9
+-bin_colors={"manual_color":"Yellow","approved_color":"Green","refused_color":"Red"}
+print(bin_colors)
+{'manual_color': 'Yellow', 'approved_color': 'Green', 'refused_color': 'Red'}
+
+-bin_colors.get('approved_color')
+'Green'
+-bin_colors['approved_color']
+'Green'
+
+-bin_colors['approved_color']="Purple"
+-print(bin_colors){'manual_color':'Yellow','approved_color','refused_color':'Red'}
+
+
+#Latihan:10
+-Green = {'grass','leaves'}
+-print(green){'grass','leaves'}
+
+-green = {'grass','leaves','leaves'}
+-print(green){'green','leaves'}
+
+
+#Latihan:11
+-importpandas as pd
+-df = pd.DataFrame(
+... ['1', 'Fares', 32, True],
+... ['2', 'Elena', 23, False],
+... ['3', 'Steven', 40, True]])
+
+-myMatrix = np.array([[11, 12, 13], [21, 22, 23], [31, 32, 33]])
+-print(myMatrix)
+[[11 12 13]
+[21 22 23]
+[31 32 33]]
+-print(type(myMatrix))
+<class 'numpy.ndarray'>
+
+
+Latihan:12
+>Menggunakan list Python:
+- myVector = [22,33,44,55]
+- print(myVector)
+[22 33 44 55]
+- print(type(myVector))
+<class 'list’>
+>Menggunakan array numpy:
+- myVector = np.array([22,33,44,55])
+- print(myVector)
+[22 33 44 55]
+-print(type(myVector))
+<class 'numpy.ndarray'>
+
